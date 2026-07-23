@@ -57,6 +57,9 @@ jobs:
 
       - name: Build static site
         working-directory: web
+        env:
+          # Project site is https://itskenlim.github.io/iloilojobs/
+          BASE_PATH: /iloilojobs
         run: npm run build
 
       - name: Upload Pages artifact
