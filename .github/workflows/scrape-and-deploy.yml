@@ -20,6 +20,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -65,27 +68,40 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      # Keep jobs.json in the repo for local/dev. Pages already has fresh data from this run.
+      # Sync jobs.json into the repo for local/dev.
+      # Pages already has fresh data from this run — this step must not block deploys.
       - name: Commit updated job data
+        continue-on-error: true
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/public/data/jobs.json web/public/data/metadata.json
-          if git diff --staged --quiet; then
-            echo "No job data changes"
-            exit 0
-          fi
-          git commit -m "chore: refresh scraped job data"
-          # Remote may have moved (manual push / overlapping run) — rebase then push.
+
+          # Keep scraped files across branch reset
+          cp web/public/data/jobs.json /tmp/jobs.json
+          cp web/public/data/metadata.json /tmp/metadata.json
+
           for attempt in 1 2 3; do
+            echo "Commit attempt $attempt"
             git fetch origin main
-            git pull --rebase origin main
+            git checkout -B main origin/main
+            cp /tmp/jobs.json web/public/data/jobs.json
+            cp /tmp/metadata.json web/public/data/metadata.json
+            git add web/public/data/jobs.json web/public/data/metadata.json
+
+            if git diff --staged --quiet; then
+              echo "No job data changes vs origin/main"
+              exit 0
+            fi
+
+            git commit -m "chore: refresh scraped job data"
             if git push origin HEAD:main; then
               echo "Pushed job data"
               exit 0
             fi
-            echo "Push rejected (attempt $attempt), retrying..."
+            echo "Push rejected, retrying..."
             sleep 5
           done
-          echo "Failed to push job data after retries (site was still deployed)"
+
+          echo "Could not push job data after retries (Pages deploy already succeeded)"
           exit 1
