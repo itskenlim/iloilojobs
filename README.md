@@ -15,43 +15,49 @@ cache/raw/         # latest raw provider payloads (gitignored)
 logs/              # scraper.log (gitignored)
 ```
 
-## Scraping (home laptop)
+## Scraping (always-on home machine)
 
 iQor / TELUS block GitHub Actions IPs (`403`). Run **all** scrapes on a normal home IP instead.
 
-### One-time setup
+Units assume user `kenken` and clone path `/home/kenken/dev/personal/iloilojobs` (same on desktop + old laptop).
+
+### One-time setup (24/7 box)
 
 ```bash
+mkdir -p ~/dev/personal && cd ~/dev/personal
 git clone git@github.com:itskenlim/iloilojobs.git
 cd iloilojobs
 
-cd scrapers
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -e .
-cd ..
-
+cd scrapers && python3 -m venv .venv && .venv/bin/pip install -e . && cd ..
 chmod +x scripts/scrape-and-push.sh
-# dry run (no push if you only want scrape):
+
+# SSH push must work non-interactively (ssh -T git@github.com)
+git remote -v   # should be git@github.com:itskenlim/iloilojobs.git
+
+# dry-run scrape (no push):
 scrapers/.venv/bin/iloilo-jobs scrape
 ```
 
-You only need **Python** on the laptop for scraping. `npm` is only required if you want `web/` locally (`npm install && npm run dev`).
-
-Ensure `git push` works from that machine (SSH key or credential helper).
+You only need **Python** for scraping. `npm` is only for local UI (`web/`).
 
 ### systemd every 6 hours
 
-```bash
-# edit User + paths first
-nano deploy/systemd/iloilo-jobs-scrape.service
+No path edits — copy and enable:
 
+```bash
 sudo cp deploy/systemd/iloilo-jobs-scrape.service /etc/systemd/system/
 sudo cp deploy/systemd/iloilo-jobs-scrape.timer /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable --now iloilo-jobs-scrape.timer
 systemctl list-timers | grep iloilo
-journalctl -u iloilo-jobs-scrape.service -n 50
+sudo journalctl -u iloilo-jobs-scrape.service -n 50 --no-pager
+```
+
+Re-sync unit after a `git pull` that changed `deploy/systemd/`:
+
+```bash
+sudo cp deploy/systemd/iloilo-jobs-scrape.{service,timer} /etc/systemd/system/
+sudo systemctl daemon-reload
 ```
 
 Manual run:
