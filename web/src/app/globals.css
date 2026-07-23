@@ -285,13 +285,7 @@ main {
 
 @media (max-width: 640px) {
   .filters {
-    grid-template-columns: 1fr 1fr;
-    gap: 0.65rem;
-  }
-
-  .filter input,
-  .filter select {
-    padding: 0.65rem 0.7rem;
+    grid-template-columns: 1fr;
   }
 }
 
