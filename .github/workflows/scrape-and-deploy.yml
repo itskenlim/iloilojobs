@@ -56,18 +56,6 @@ jobs:
         working-directory: web
         run: npm run build
 
-      - name: Commit updated job data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/public/data/jobs.json web/public/data/metadata.json
-          if git diff --staged --quiet; then
-            echo "No job data changes"
-          else
-            git commit -m "chore: refresh scraped job data"
-            git push
-          fi
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -76,3 +64,28 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # Keep jobs.json in the repo for local/dev. Pages already has fresh data from this run.
+      - name: Commit updated job data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/public/data/jobs.json web/public/data/metadata.json
+          if git diff --staged --quiet; then
+            echo "No job data changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh scraped job data"
+          # Remote may have moved (manual push / overlapping run) — rebase then push.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "Pushed job data"
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), retrying..."
+            sleep 5
+          done
+          echo "Failed to push job data after retries (site was still deployed)"
+          exit 1
