@@ -55,6 +55,14 @@ function IconApply() {
   );
 }
 
+function IconGitHub() {
+  return (
+    <svg className="footer-github-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 2C6.477 2 2 6.586 2 12.253c0 4.537 2.865 8.383 6.839 9.743.5.094.683-.222.683-.494 0-.243-.009-.888-.014-1.743-2.782.618-3.369-1.372-3.369-1.372-.455-1.183-1.11-1.498-1.11-1.498-.908-.636.069-.623.069-.623 1.004.072 1.533 1.057 1.533 1.057.892 1.566 2.341 1.114 2.91.852.091-.662.35-1.114.636-1.37-2.22-.26-4.555-1.14-4.555-5.074 0-1.121.39-2.038 1.029-2.756-.103-.26-.446-1.302.098-2.714 0 0 .84-.276 2.75 1.052A9.35 9.35 0 0 1 12 6.844a9.35 9.35 0 0 1 2.504.346c1.909-1.328 2.748-1.052 2.748-1.052.546 1.412.203 2.454.1 2.714.64.718 1.028 1.635 1.028 2.756 0 3.944-2.339 4.811-4.566 5.066.359.317.679.943.679 1.901 0 1.372-.012 2.477-.012 2.814 0 .274.18.593.688.492C19.138 20.633 22 16.787 22 12.253 22 6.586 17.523 2 12 2z" />
+    </svg>
+  );
+}
+
 export default async function HomePage() {
   const repo = createJobRepository();
   const [jobs, metadata] = await Promise.all([
@@ -68,10 +76,10 @@ export default async function HomePage() {
         <div className="hero-media" role="img" aria-label="City skyline atmosphere" />
         <div className="hero-content">
           <p className="brand">Iloilo Jobs</p>
-          <h1>BPO openings across Iloilo, in one board.</h1>
+          <h1>BPO openings across Iloilo, all in one place.</h1>
           <p className="lede">
-            Aggregated from company career sites — filtered to Iloilo so you can
-            scan roles without hopping between portals.
+            From company career sites — filtered for Iloilo so you can browse
+            jobs without switching between portals.
           </p>
           <a className="cta" href="#jobs">
             Browse openings
@@ -113,26 +121,28 @@ export default async function HomePage() {
         <h2 id="jobs-heading" className="board-heading">
           Open roles
         </h2>
-        <p className="section-lede">
-          Search by title or company. Results update when the scrape runs.
-        </p>
+        <p className="section-lede">Search by title or company.</p>
         <JobBoard jobs={jobs} />
       </section>
 
-      <p className="trust">
-        Not affiliated with the listed employers. Always verify openings on the
-        official apply link.
-      </p>
-
       <footer className="footer">
         <div className="footer-inner">
-          <p className="footer-name">Jose Marie Lim</p>
+          <div className="footer-brand-block">
+            <p className="footer-brand">Iloilo Jobs</p>
+            <p className="footer-purpose">
+              Aggregated BPO openings for Iloilo. Always apply on the employer’s
+              official page.
+            </p>
+            <p className="footer-maker">Made by Jose Marie Lim</p>
+          </div>
           <a
+            className="footer-source"
             href="https://github.com/itskenlim/iloilojobs"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            <IconGitHub />
+            Source
           </a>
         </div>
       </footer>
