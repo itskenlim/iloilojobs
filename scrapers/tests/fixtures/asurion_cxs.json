@@ -1,0 +1,71 @@
+{
+  "total": 4,
+  "jobPostings": [
+    {
+      "title": "Technical Support Representative - Iloilo",
+      "externalPath": "/job/Philippines---Iloilo-Business-Park/Technical-Support-Representative---Iloilo_ASU0014118-1",
+      "locationsText": "Philippines - Iloilo Business Park",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "ASU0014118"
+      ]
+    },
+    {
+      "title": "Customer Support and Sales Representative - Iloilo",
+      "externalPath": "/job/Philippines---Iloilo-Business-Park/Customer-Support-and-Sales-Representative---Iloilo_ASU0014119-1",
+      "locationsText": "Philippines - Iloilo Business Park",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "ASU0014119"
+      ]
+    },
+    {
+      "title": "Call Center Supervisor",
+      "externalPath": "/job/Philippines---Iloilo-Business-Park/Call-Center-Supervisor_ASU0020687",
+      "locationsText": "Philippines - Iloilo Business Park",
+      "postedOn": "Posted 5 Days Ago",
+      "bulletFields": [
+        "ASU0020687"
+      ]
+    },
+    {
+      "title": "Director, Customer Solutions Operations",
+      "externalPath": "/job/Philippines---Iloilo-Business-Park/Director--Customer-Solutions-Operations_ASU0019289",
+      "locationsText": "Philippines - Iloilo Business Park",
+      "postedOn": "Posted 21 Days Ago",
+      "bulletFields": [
+        "ASU0019289"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetParameter": "timeType",
+      "descriptor": "Time Type",
+      "values": [
+        {
+          "descriptor": "Full time",
+          "id": "5a27ea675aec108ed57b0a194eabe18b",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locations",
+          "descriptor": "Locations",
+          "values": [
+            {
+              "descriptor": "Philippines - Iloilo Business Park",
+              "id": "b39a2117cbcd0129d1086a6bb2003030",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userAuthenticated": false
+}

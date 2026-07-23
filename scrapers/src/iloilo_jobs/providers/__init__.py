@@ -6,6 +6,7 @@ Provider package.
 Importing this package registers all @provider classes.
 """
 
+from iloilo_jobs.providers import asurion as asurion  # noqa: F401
 from iloilo_jobs.providers import carelon as carelon  # noqa: F401
 from iloilo_jobs.providers import concentrix as concentrix  # noqa: F401
 from iloilo_jobs.providers import inspiro as inspiro  # noqa: F401

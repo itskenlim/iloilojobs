@@ -1,0 +1,10 @@
+{
+  "id": "asurion",
+  "name": "Asurion",
+  "website": "https://www.asurion.com",
+  "careers_url": "https://careers.asurion.com/us/en/iloilo",
+  "logo": "/logos/asurion.svg",
+  "city": "Iloilo",
+  "enabled": true,
+  "source_kind": "workday"
+}
