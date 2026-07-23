@@ -96,6 +96,11 @@ class TelusProvider:
         self._owns_http = http is None
 
     def fetch_raw(self) -> dict[str, Any]:
+        # Cloudflare often 403s the first HTML hit but still sets __cf_bm.
+        # Reuse that cookie jar for the Talemetry XHR JSON call.
+        warm_url = f"{self.search_url}?location={self.location}"
+        self._http.get(warm_url, raise_for_status=False)
+
         response = self._http.get(
             self.search_url,
             params={"location": self.location, "per_page": self.per_page},

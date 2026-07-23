@@ -33,14 +33,28 @@ class HttpClient:
             follow_redirects=True,
         )
 
-    def get(self, url: str, **kwargs: Any) -> httpx.Response:
+    def get(
+        self,
+        url: str,
+        *,
+        raise_for_status: bool = True,
+        **kwargs: Any,
+    ) -> httpx.Response:
         response = self._client.get(url, **kwargs)
-        response.raise_for_status()
+        if raise_for_status:
+            response.raise_for_status()
         return response
 
-    def post(self, url: str, **kwargs: Any) -> httpx.Response:
+    def post(
+        self,
+        url: str,
+        *,
+        raise_for_status: bool = True,
+        **kwargs: Any,
+    ) -> httpx.Response:
         response = self._client.post(url, **kwargs)
-        response.raise_for_status()
+        if raise_for_status:
+            response.raise_for_status()
         return response
 
     def close(self) -> None:
