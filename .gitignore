@@ -29,3 +29,9 @@ web/.env*.local
 .idea/
 .vscode/
 *.swp
+.vercel
+.env*
+
+# Vercel
+.vercel/
+.env.local
