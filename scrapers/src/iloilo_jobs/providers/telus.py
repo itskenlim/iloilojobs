@@ -1,24 +1,25 @@
 from __future__ import annotations
 
+import logging
 from datetime import datetime, timezone
 from typing import Any
 
-from iloilo_jobs.clients.http import HttpClient
+from curl_cffi import requests as curl_requests
+
 from iloilo_jobs.models.job import Job
 from iloilo_jobs.registry import provider
+
+logger = logging.getLogger(__name__)
 
 # Broad Iloilo search (includes Pavia). Narrow /search/jobs/in/iloilo misses most roles.
 TELUS_SEARCH_URL = "https://jobs.telusdigital.com/search/jobs"
 TELUS_JOB_BASE = "https://jobs.telusdigital.com/jobs"
 
-# Cloudflare blocks document navigations; Talemetry serves JSON to XHR clients.
+# Cloudflare blocks plain httpx; Chrome TLS impersonation via curl_cffi works.
+TELUS_IMPERSONATE = "chrome131"
 TELUS_XHR_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/139.0.7258.5 Safari/537.36"
-    ),
     "Accept": "application/json",
-    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Language": "en-US,en;q=0.9",
     "Referer": "https://jobs.telusdigital.com/search/jobs?location=iloilo",
     "X-Requested-With": "XMLHttpRequest",
 }
@@ -77,42 +78,50 @@ def parse_telus_payload(raw: Any, *, scraped_at: str | None = None) -> list[Job]
 
 @provider
 class TelusProvider:
-    """TELUS Digital / Talemetry Iloilo search (XHR JSON, no Playwright)."""
+    """TELUS Digital / Talemetry Iloilo search (XHR JSON via curl_cffi, no Playwright)."""
 
     company_id = "telus"
 
     def __init__(
         self,
         *,
-        http: HttpClient | None = None,
         search_url: str = TELUS_SEARCH_URL,
         location: str = "iloilo",
         per_page: int = 50,
+        impersonate: str = TELUS_IMPERSONATE,
     ) -> None:
         self.search_url = search_url
         self.location = location
         self.per_page = per_page
-        self._http = http or HttpClient(headers=TELUS_XHR_HEADERS)
-        self._owns_http = http is None
+        self.impersonate = impersonate
 
     def fetch_raw(self) -> dict[str, Any]:
-        # Cloudflare often 403s the first HTML hit but still sets __cf_bm.
-        # Reuse that cookie jar for the Talemetry XHR JSON call.
-        warm_url = f"{self.search_url}?location={self.location}"
-        self._http.get(warm_url, raise_for_status=False)
+        # curl_cffi impersonates Chrome TLS/JA3 so Cloudflare allows the Talemetry XHR.
+        with curl_requests.Session(impersonate=self.impersonate) as session:
+            warm = session.get(
+                self.search_url,
+                params={"location": self.location},
+                timeout=30,
+            )
+            logger.info(
+                "telus warm %s (cookies=%s)",
+                warm.status_code,
+                sorted(session.cookies.keys()),
+            )
 
-        response = self._http.get(
-            self.search_url,
-            params={"location": self.location, "per_page": self.per_page},
-        )
-        data = response.json()
+            response = session.get(
+                self.search_url,
+                params={"location": self.location, "per_page": self.per_page},
+                headers=TELUS_XHR_HEADERS,
+                timeout=30,
+            )
+            logger.info("telus xhr %s", response.status_code)
+            response.raise_for_status()
+            data = response.json()
+
         if not isinstance(data, dict):
             raise TypeError("TELUS API did not return a JSON object")
         return data
 
     def parse(self, raw: Any) -> list[Job]:
         return parse_telus_payload(raw)
-
-    def close(self) -> None:
-        if self._owns_http:
-            self._http.close()

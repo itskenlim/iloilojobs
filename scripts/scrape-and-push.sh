@@ -22,6 +22,9 @@ git fetch "$REMOTE" "$BRANCH"
 git checkout "$BRANCH"
 git pull --ff-only "$REMOTE" "$BRANCH"
 
+echo "==> sync scraper deps"
+"$VENV_BIN/pip" install -q -e "$ROOT/scrapers"
+
 echo "==> scrape"
 "$VENV_BIN/iloilo-jobs" scrape \
   --out "$ROOT/web/public/data/jobs.json" \
