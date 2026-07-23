@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T15:23:57Z",
+  "generated_at": "2026-07-23T15:32:16Z",
   "providers": 9,
   "successful_providers": 7,
   "failed_providers": 2,
@@ -10,5 +10,5 @@
   "total_jobs": 49,
   "duplicates_removed": 0,
   "validation_dropped": 0,
-  "duration_ms": 7558
+  "duration_ms": 9162
 }
