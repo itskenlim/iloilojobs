@@ -1,0 +1,10 @@
+{
+  "id": "relx",
+  "name": "RELX (Reed Elsevier)",
+  "website": "https://www.relx.com",
+  "careers_url": "https://relx.wd3.myworkdayjobs.com/relx",
+  "logo": "/logos/relx.svg",
+  "city": "Iloilo",
+  "enabled": true,
+  "source_kind": "workday"
+}

@@ -1,0 +1,375 @@
+{
+  "offset": 0,
+  "limit": 100,
+  "totalFound": 6,
+  "content": [
+    {
+      "id": "744000126968419",
+      "name": "Healthcare Specialist (PHRN) - Iloilo City",
+      "uuid": "22dce07f-4e04-4264-af46-dea469c5f46a",
+      "jobAdId": "b5c67362-647e-45eb-8710-47b621ce0c7d",
+      "defaultJobAd": true,
+      "refNumber": "REF102015L_",
+      "company": {
+        "identifier": "WNSGlobalServices144",
+        "name": "WNS Global Services"
+      },
+      "releasedDate": "2026-05-18T10:50:56.355Z",
+      "location": {
+        "city": "Iloilo City",
+        "region": "Western Visayas",
+        "country": "ph",
+        "address": "Iloilo Sunset Boulevard",
+        "remote": true,
+        "hybrid": false,
+        "latitude": "10.698034",
+        "longitude": "122.5261401",
+        "fullLocation": "Iloilo City, Western Visayas, Philippines"
+      },
+      "industry": {
+        "id": "outsourcing_offshoring",
+        "label": "Outsourcing/Offshoring"
+      },
+      "department": {},
+      "function": {
+        "id": "customer_service",
+        "label": "Customer Service"
+      },
+      "typeOfEmployment": {
+        "id": "permanent",
+        "label": "Full-time"
+      },
+      "experienceLevel": {
+        "id": "entry_level",
+        "label": "Entry Level"
+      },
+      "customField": [
+        {
+          "fieldId": "COUNTRY",
+          "fieldLabel": "Country/Region",
+          "valueId": "ph",
+          "valueLabel": "Philippines"
+        },
+        {
+          "fieldId": "63fe28ee10d13f455a94ca13",
+          "fieldLabel": "Brands",
+          "valueId": "default",
+          "valueLabel": "WNS Global Services"
+        }
+      ],
+      "visibility": "PUBLIC",
+      "ref": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/744000126968419",
+      "language": {
+        "code": "en",
+        "label": "English",
+        "labelNative": "English (US)"
+      }
+    },
+    {
+      "id": "744000120865607",
+      "name": "Iloilo Support Roles - Training / Workforce / Operations / HR (Executive, Team Leader and/or Manager)",
+      "uuid": "426d238e-6b98-480d-b635-1b48381b8bcc",
+      "jobAdId": "4d5e478a-5781-4b5c-89e0-c8aa0f3eb648",
+      "defaultJobAd": true,
+      "refNumber": "REF5287F_",
+      "company": {
+        "identifier": "WNSGlobalServices144",
+        "name": "WNS Global Services"
+      },
+      "releasedDate": "2026-04-15T05:23:59.493Z",
+      "location": {
+        "city": "Iloilo City",
+        "region": "Western Visayas",
+        "country": "ph",
+        "address": "Megaworld Boulevard",
+        "remote": false,
+        "hybrid": false,
+        "latitude": "10.7151767",
+        "longitude": "122.5458439",
+        "fullLocation": "Iloilo City, Western Visayas, Philippines"
+      },
+      "industry": {
+        "id": "outsourcing_offshoring",
+        "label": "Outsourcing/Offshoring"
+      },
+      "department": {},
+      "function": {
+        "id": "customer_service",
+        "label": "Customer Service"
+      },
+      "typeOfEmployment": {
+        "id": "permanent",
+        "label": "Full-time"
+      },
+      "experienceLevel": {
+        "id": "entry_level",
+        "label": "Entry Level"
+      },
+      "customField": [
+        {
+          "fieldId": "COUNTRY",
+          "fieldLabel": "Country/Region",
+          "valueId": "ph",
+          "valueLabel": "Philippines"
+        },
+        {
+          "fieldId": "63fe28ee10d13f455a94ca13",
+          "fieldLabel": "Brands",
+          "valueId": "default",
+          "valueLabel": "WNS Global Services"
+        }
+      ],
+      "visibility": "PUBLIC",
+      "ref": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/744000120865607",
+      "language": {
+        "code": "en",
+        "label": "English",
+        "labelNative": "English (US)"
+      }
+    },
+    {
+      "id": "744000120863037",
+      "name": "Transformational Quality Manager (Six Sigma, Blackbelt) - Deputy / Group Manager",
+      "uuid": "f0c9b1fd-cc38-4d83-8131-29ace7bb2425",
+      "jobAdId": "fcca6cda-c3df-4408-8022-4abc1167b9f0",
+      "defaultJobAd": true,
+      "refNumber": "REF5300K_",
+      "company": {
+        "identifier": "WNSGlobalServices144",
+        "name": "WNS Global Services"
+      },
+      "releasedDate": "2026-04-15T04:44:55.002Z",
+      "location": {
+        "city": "Iloilo City",
+        "region": "ILOILO",
+        "country": "ph",
+        "address": "Megaworld Blvd, Mandurriao,",
+        "remote": false,
+        "hybrid": false,
+        "fullLocation": "Iloilo City, ILOILO, Philippines"
+      },
+      "industry": {
+        "id": "outsourcing_offshoring",
+        "label": "Outsourcing/Offshoring"
+      },
+      "department": {},
+      "function": {
+        "id": "customer_service",
+        "label": "Customer Service"
+      },
+      "typeOfEmployment": {
+        "id": "permanent",
+        "label": "Full-time"
+      },
+      "experienceLevel": {
+        "id": "entry_level",
+        "label": "Entry Level"
+      },
+      "customField": [
+        {
+          "fieldId": "COUNTRY",
+          "fieldLabel": "Country/Region",
+          "valueId": "ph",
+          "valueLabel": "Philippines"
+        },
+        {
+          "fieldId": "63fe28ee10d13f455a94ca13",
+          "fieldLabel": "Brands",
+          "valueId": "default",
+          "valueLabel": "WNS Global Services"
+        }
+      ],
+      "visibility": "PUBLIC",
+      "ref": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/744000120863037",
+      "language": {
+        "code": "en",
+        "label": "English",
+        "labelNative": "English (US)"
+      }
+    },
+    {
+      "id": "744000120656077",
+      "name": "Healthcare Specialist \u2013 Iloilo City Site",
+      "uuid": "951c13a8-fc7e-46bb-b694-51852afc7ea7",
+      "jobAdId": "bee9fe44-efb4-41b3-8cc1-286f9df7cc00",
+      "defaultJobAd": true,
+      "refNumber": "REF68318T_",
+      "company": {
+        "identifier": "WNSGlobalServices144",
+        "name": "WNS Global Services"
+      },
+      "releasedDate": "2026-04-14T09:58:28.280Z",
+      "location": {
+        "city": "Iloilo City",
+        "region": "Western Visayas",
+        "country": "ph",
+        "address": "Megaworld Boulevard",
+        "remote": false,
+        "hybrid": false,
+        "latitude": "10.7151767",
+        "longitude": "122.5458439",
+        "fullLocation": "Iloilo City, Western Visayas, Philippines"
+      },
+      "industry": {
+        "id": "outsourcing_offshoring",
+        "label": "Outsourcing/Offshoring"
+      },
+      "department": {},
+      "function": {
+        "id": "customer_service",
+        "label": "Customer Service"
+      },
+      "typeOfEmployment": {
+        "id": "permanent",
+        "label": "Full-time"
+      },
+      "experienceLevel": {
+        "id": "associate",
+        "label": "Associate"
+      },
+      "customField": [
+        {
+          "fieldId": "COUNTRY",
+          "fieldLabel": "Country/Region",
+          "valueId": "ph",
+          "valueLabel": "Philippines"
+        },
+        {
+          "fieldId": "63fe28ee10d13f455a94ca13",
+          "fieldLabel": "Brands",
+          "valueId": "default",
+          "valueLabel": "WNS Global Services"
+        }
+      ],
+      "visibility": "PUBLIC",
+      "ref": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/744000120656077",
+      "language": {
+        "code": "en",
+        "label": "English",
+        "labelNative": "English (US)"
+      }
+    },
+    {
+      "id": "744000120655158",
+      "name": "Customer Specialist \u2013 Iloilo City Site (Fresher)",
+      "uuid": "2c2d0dbf-18ee-4926-8d6f-b7ccb70d9461",
+      "jobAdId": "c68e3dbd-4633-4d58-8c6b-ca0b55241afb",
+      "defaultJobAd": true,
+      "refNumber": "REF68191K_",
+      "company": {
+        "identifier": "WNSGlobalServices144",
+        "name": "WNS Global Services"
+      },
+      "releasedDate": "2026-04-14T09:55:03.000Z",
+      "location": {
+        "city": "Iloilo City",
+        "region": "Western Visayas",
+        "country": "ph",
+        "address": "Megaworld Boulevard",
+        "remote": false,
+        "hybrid": false,
+        "latitude": "10.7151767",
+        "longitude": "122.5458439",
+        "fullLocation": "Iloilo City, Western Visayas, Philippines"
+      },
+      "industry": {
+        "id": "outsourcing_offshoring",
+        "label": "Outsourcing/Offshoring"
+      },
+      "department": {},
+      "function": {
+        "id": "customer_service",
+        "label": "Customer Service"
+      },
+      "typeOfEmployment": {
+        "id": "permanent",
+        "label": "Full-time"
+      },
+      "experienceLevel": {
+        "id": "associate",
+        "label": "Associate"
+      },
+      "customField": [
+        {
+          "fieldId": "COUNTRY",
+          "fieldLabel": "Country/Region",
+          "valueId": "ph",
+          "valueLabel": "Philippines"
+        },
+        {
+          "fieldId": "63fe28ee10d13f455a94ca13",
+          "fieldLabel": "Brands",
+          "valueId": "default",
+          "valueLabel": "WNS Global Services"
+        }
+      ],
+      "visibility": "PUBLIC",
+      "ref": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/744000120655158",
+      "language": {
+        "code": "en",
+        "label": "English",
+        "labelNative": "English (US)"
+      }
+    },
+    {
+      "id": "744000120653847",
+      "name": "Customer Specialist \u2013 Iloilo City Site (Experienced)",
+      "uuid": "16d0f55b-0acd-44c7-9242-b60d257005ac",
+      "jobAdId": "bd26cd35-e1e3-4685-8875-a968c7dfd76b",
+      "defaultJobAd": true,
+      "refNumber": "REF5281Z_",
+      "company": {
+        "identifier": "WNSGlobalServices144",
+        "name": "WNS Global Services"
+      },
+      "releasedDate": "2026-04-14T09:47:56.726Z",
+      "location": {
+        "city": "Iloilo City",
+        "region": "ILOILO",
+        "country": "ph",
+        "address": "Megaworld Blvd, Mandurriao,",
+        "remote": false,
+        "hybrid": false,
+        "fullLocation": "Iloilo City, ILOILO, Philippines"
+      },
+      "industry": {
+        "id": "outsourcing_offshoring",
+        "label": "Outsourcing/Offshoring"
+      },
+      "department": {},
+      "function": {
+        "id": "customer_service",
+        "label": "Customer Service"
+      },
+      "typeOfEmployment": {
+        "id": "permanent",
+        "label": "Full-time"
+      },
+      "experienceLevel": {
+        "id": "entry_level",
+        "label": "Entry Level"
+      },
+      "customField": [
+        {
+          "fieldId": "COUNTRY",
+          "fieldLabel": "Country/Region",
+          "valueId": "ph",
+          "valueLabel": "Philippines"
+        },
+        {
+          "fieldId": "63fe28ee10d13f455a94ca13",
+          "fieldLabel": "Brands",
+          "valueId": "default",
+          "valueLabel": "WNS Global Services"
+        }
+      ],
+      "visibility": "PUBLIC",
+      "ref": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/744000120653847",
+      "language": {
+        "code": "en",
+        "label": "English",
+        "labelNative": "English (US)"
+      }
+    }
+  ]
+}

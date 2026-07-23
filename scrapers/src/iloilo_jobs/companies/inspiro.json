@@ -1,0 +1,10 @@
+{
+  "id": "inspiro",
+  "name": "Inspiro",
+  "website": "https://inspiro.com",
+  "careers_url": "https://inspiro.com/careers",
+  "logo": "/logos/inspiro.svg",
+  "city": "Iloilo",
+  "enabled": true,
+  "source_kind": "html"
+}

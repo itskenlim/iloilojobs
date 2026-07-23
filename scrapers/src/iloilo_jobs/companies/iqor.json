@@ -1,0 +1,10 @@
+{
+  "id": "iqor",
+  "name": "iQor",
+  "website": "https://www.iqor.com",
+  "careers_url": "https://apply.iqor.com/jobs",
+  "logo": "/logos/iqor.svg",
+  "city": "Iloilo",
+  "enabled": true,
+  "source_kind": "next_data"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "concentrix",
+  "name": "Concentrix",
+  "website": "https://www.concentrix.com",
+  "careers_url": "https://cnx.wd1.myworkdayjobs.com/external_global",
+  "logo": "/logos/concentrix.svg",
+  "city": "Iloilo",
+  "enabled": true,
+  "source_kind": "workday"
+}

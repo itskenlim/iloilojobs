@@ -1,0 +1,1122 @@
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.0/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "jobs",
+      "id": "071989aa-b267-4947-8d0a-a35a554a2bc2",
+      "links": {
+        "self": {
+          "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2?resourceVersion=id%3A850572"
+        }
+      },
+      "attributes": {
+        "langcode": "en",
+        "status": true,
+        "title": "Customer Service Representative (CSR-Onsite) - Iloilo, Philippines",
+        "created": "2025-04-24T17:30:02+00:00",
+        "changed": "2026-07-23T11:30:34+00:00",
+        "promote": false,
+        "sticky": false,
+        "default_langcode": true,
+        "metatag": [
+          {
+            "tag": "meta",
+            "attributes": {
+              "name": "title",
+              "content": "Customer Service Representative (CSR-Onsite) - Iloilo, Philippines | Transcom"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:site_name",
+              "content": "Transcom"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:type",
+              "content": "article"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:url",
+              "content": "https://backend.transcom.com/careers/job-openings/customer-service-representative-csr-onsite-iloilo-philippines"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:description",
+              "content": "Job Offer - Transcom - Apply Now!"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:image",
+              "content": "https://backend.transcom.com/sites/default/files/2023-06/Transcom%20white%20logo%20on%20black%20background%201200%20x%20630.png"
+            }
+          }
+        ],
+        "path": {
+          "alias": "/careers/job-openings/customer-service-representative-csr-onsite-iloilo-philippines",
+          "pid": 1135541,
+          "langcode": "en"
+        },
+        "rh_redirect_fallback_action": null,
+        "body": {
+          "value": "<div><span style=\"font-family: arial; font-size: medium; text-align: justify; vertical-align: baseline; white-space: pre-wrap;\">Transcom is looking for talented individuals like you to join our awesome team! Be a <strong>Customer Service Representative (CSR)</strong> for our <strong>Transcom</strong...",
+          "format": "full_html",
+          "processed": "<div><span style=\"font-family: arial; font-size: medium; text-align: justify; vertical-align: baseline; white-space: pre-wrap;\">Transcom is looking for talented individuals like you to join our awesome team! Be a <strong>Customer Service Representative (CSR)</strong> for our <strong>Transcom</strong...",
+          "summary": null
+        },
+        "apply_before": null,
+        "all_domains": true,
+        "highlighted": false,
+        "link": {
+          "uri": "https://transcom.avature.net/careers/ApplicationMethods?jobId=4627&applicationStep=0",
+          "url": "https://transcom.avature.net/careers/ApplicationMethods?jobId=4627&applicationStep=0",
+          "title": "Apply",
+          "options": []
+        },
+        "field_recruiteeguid": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/node_type?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "uid": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/uid?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "domain": {
+          "data": [
+            {
+              "type": "domain",
+              "id": "3caeef1a-f0ba-4abb-9cab-ab5bc8a6e3ae",
+              "meta": {
+                "drupal_internal__target_id": "global_transcom"
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/domain?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/domain?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/image?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/image?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "job_type": {
+          "data": {
+            "type": "job-type",
+            "id": "16805aef-4cc9-4611-9840-bf25050b76f8",
+            "meta": {
+              "drupal_internal__target_id": 889
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/job_type?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/job_type?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "location_ct": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/location_ct?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/location_ct?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "field_sections": {
+          "data": [],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/field_sections?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/field_sections?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "field_taxonomy_city": {
+          "data": {
+            "type": "city",
+            "id": "caade0e5-63df-4aa7-941b-23fc69e6efb8",
+            "meta": {
+              "drupal_internal__target_id": 998
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/field_taxonomy_city?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/field_taxonomy_city?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "country": {
+          "data": {
+            "type": "country",
+            "id": "d41fa7d2-dff7-4688-8a91-91b68d400c21",
+            "meta": {
+              "drupal_internal__target_id": 540
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/country?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/country?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "field_taxonomy_language": {
+          "data": [
+            {
+              "type": "language",
+              "id": "5f4174ae-df22-450a-8086-f8b25c08d743",
+              "meta": {
+                "drupal_internal__target_id": 818
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/field_taxonomy_language?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/field_taxonomy_language?resourceVersion=id%3A850572"
+            }
+          }
+        },
+        "teaser_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/teaser_image?resourceVersion=id%3A850572"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/071989aa-b267-4947-8d0a-a35a554a2bc2/relationships/teaser_image?resourceVersion=id%3A850572"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "jobs",
+      "id": "edd996dd-b0fa-4508-8f9c-aff9bedea7ba",
+      "links": {
+        "self": {
+          "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba?resourceVersion=id%3A853552"
+        }
+      },
+      "attributes": {
+        "langcode": "en",
+        "status": true,
+        "title": "Company Psychologist (Part-Time) - Iloilo, Philippines",
+        "created": "2026-06-01T13:30:20+00:00",
+        "changed": "2026-07-23T11:30:34+00:00",
+        "promote": false,
+        "sticky": false,
+        "default_langcode": true,
+        "metatag": [
+          {
+            "tag": "meta",
+            "attributes": {
+              "name": "title",
+              "content": "Company Psychologist (Part-Time) - Iloilo, Philippines | Transcom"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:site_name",
+              "content": "Transcom"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:type",
+              "content": "article"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:url",
+              "content": "https://backend.transcom.com/careers/job-openings/company-psychologist-part-time-iloilo-philippines"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:description",
+              "content": "Job Offer - Transcom - Apply Now!"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:image",
+              "content": "https://backend.transcom.com/sites/default/files/2023-06/Transcom%20white%20logo%20on%20black%20background%201200%20x%20630.png"
+            }
+          }
+        ],
+        "path": {
+          "alias": "/careers/job-openings/company-psychologist-part-time-iloilo-philippines",
+          "pid": 1141361,
+          "langcode": "en"
+        },
+        "rh_redirect_fallback_action": null,
+        "body": {
+          "value": "<span id=\"docs-internal-guid-500fcb17-7fff-38c7-69b3-4ec28fb98ce7\"><p dir=\"ltr\" style=\"line-height: 1.38; text-align: justify; margin-bottom: 0pt; margin-top: 0pt;\"><font size=\"3\" face=\"arial\"><span style=\"font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">Transcom is looking fo...",
+          "format": "full_html",
+          "processed": "<span id=\"docs-internal-guid-500fcb17-7fff-38c7-69b3-4ec28fb98ce7\"><p dir=\"ltr\" style=\"line-height: 1.38; text-align: justify; margin-bottom: 0pt; margin-top: 0pt;\"><font size=\"3\" face=\"arial\"><span style=\"font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">Transcom is looking fo...",
+          "summary": null
+        },
+        "apply_before": null,
+        "all_domains": true,
+        "highlighted": false,
+        "link": {
+          "uri": "https://transcom.avature.net/careers/ApplicationMethods?jobId=11677&applicationStep=0",
+          "url": "https://transcom.avature.net/careers/ApplicationMethods?jobId=11677&applicationStep=0",
+          "title": "Apply",
+          "options": []
+        },
+        "field_recruiteeguid": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/node_type?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "uid": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/uid?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "domain": {
+          "data": [
+            {
+              "type": "domain",
+              "id": "3caeef1a-f0ba-4abb-9cab-ab5bc8a6e3ae",
+              "meta": {
+                "drupal_internal__target_id": "global_transcom"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "f5c6830f-6bd3-4c6e-823e-62fd8ccf153f",
+              "meta": {
+                "drupal_internal__target_id": "al_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "670f4852-a48c-4e98-8f03-fd5f208e12c5",
+              "meta": {
+                "drupal_internal__target_id": "backend_transcom_com_in"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "a3de60c6-1fe8-45f3-862b-5127c1dd2b6d",
+              "meta": {
+                "drupal_internal__target_id": "backend_youpal_cloud_fr"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "240627b9-7666-4c88-94f7-a375d12b8b41",
+              "meta": {
+                "drupal_internal__target_id": "ba_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "5520da10-cc5e-46ba-8351-8245072b7c6d",
+              "meta": {
+                "drupal_internal__target_id": "ca_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "41f3f7ee-a882-4d8c-b5fa-b3d4f9e460a6",
+              "meta": {
+                "drupal_internal__target_id": "co_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "6cfcc251-6555-453f-adee-452ebf7cf793",
+              "meta": {
+                "drupal_internal__target_id": "de_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "07b550d0-307e-4aad-beb5-205ee3d28db9",
+              "meta": {
+                "drupal_internal__target_id": "ee_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "36a12c57-9753-4bb3-a22c-9a9466955c21",
+              "meta": {
+                "drupal_internal__target_id": "eg_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "27cd90ee-382f-44d8-83e0-0a0ff85fdcf7",
+              "meta": {
+                "drupal_internal__target_id": "es_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "3cd5e266-d887-406d-a36f-caa6e6eb4970",
+              "meta": {
+                "drupal_internal__target_id": "fr_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "bebb4b28-8db7-4f69-8f74-4ad680889e4b",
+              "meta": {
+                "drupal_internal__target_id": "gr_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "3317b1bd-1009-4ea6-9e66-ddd3d4d4d427",
+              "meta": {
+                "drupal_internal__target_id": "hr_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "66724048-4453-4d27-9d4a-9af00b8232f8",
+              "meta": {
+                "drupal_internal__target_id": "hu_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "a79fcd3f-500d-4c0c-ba24-9eb4f1347335",
+              "meta": {
+                "drupal_internal__target_id": "it_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "ab1ddc35-666f-4311-86ce-67743fce72f3",
+              "meta": {
+                "drupal_internal__target_id": "lt_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "dc099172-905e-4c65-bb79-c3a5c30836f3",
+              "meta": {
+                "drupal_internal__target_id": "lv_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "9bd73ec7-7bf3-4412-82cb-a471b31c889e",
+              "meta": {
+                "drupal_internal__target_id": "mk_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "0e6e2198-c20a-47ea-91e2-3a5128d0b8d3",
+              "meta": {
+                "drupal_internal__target_id": "nl_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "15d0dce5-2b5c-4279-aa86-c9ce5fb60cd2",
+              "meta": {
+                "drupal_internal__target_id": "no_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "7604a9d9-616c-4ca3-bf0c-d588d8ef566d",
+              "meta": {
+                "drupal_internal__target_id": "ph_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "d660c860-5bcb-4012-80fd-a06f18ce257c",
+              "meta": {
+                "drupal_internal__target_id": "pl_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "03710545-2d1c-4ad5-9de9-d596cddd180b",
+              "meta": {
+                "drupal_internal__target_id": "pt_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "fea788e5-4fa1-4668-93f2-06b6b00c3568",
+              "meta": {
+                "drupal_internal__target_id": "rs_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "26a2cee3-a3d3-4314-b4d2-4f64f6c99a22",
+              "meta": {
+                "drupal_internal__target_id": "se_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "963b033d-720d-4aa2-b3d7-6b1bf62d90cf",
+              "meta": {
+                "drupal_internal__target_id": "sl_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "df535c0d-786f-4929-81b4-46cf5462e6c3",
+              "meta": {
+                "drupal_internal__target_id": "uk_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "f7f7bd38-7aee-4b98-bcb2-4a60c3989430",
+              "meta": {
+                "drupal_internal__target_id": "us_transcom_com"
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/domain?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/domain?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/image?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/image?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "job_type": {
+          "data": {
+            "type": "job-type",
+            "id": "a356b557-e954-49b6-a9ed-6faaccab42fa",
+            "meta": {
+              "drupal_internal__target_id": 896
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/job_type?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/job_type?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "location_ct": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/location_ct?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/location_ct?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "field_sections": {
+          "data": [],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/field_sections?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/field_sections?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "field_taxonomy_city": {
+          "data": {
+            "type": "city",
+            "id": "85b9da08-4645-4a45-a654-67f7eefe505a",
+            "meta": {
+              "drupal_internal__target_id": 1051
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/field_taxonomy_city?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/field_taxonomy_city?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "country": {
+          "data": {
+            "type": "country",
+            "id": "d41fa7d2-dff7-4688-8a91-91b68d400c21",
+            "meta": {
+              "drupal_internal__target_id": 540
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/country?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/country?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "field_taxonomy_language": {
+          "data": [
+            {
+              "type": "language",
+              "id": "5f4174ae-df22-450a-8086-f8b25c08d743",
+              "meta": {
+                "drupal_internal__target_id": 818
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/field_taxonomy_language?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/field_taxonomy_language?resourceVersion=id%3A853552"
+            }
+          }
+        },
+        "teaser_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/teaser_image?resourceVersion=id%3A853552"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/edd996dd-b0fa-4508-8f9c-aff9bedea7ba/relationships/teaser_image?resourceVersion=id%3A853552"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "jobs",
+      "id": "da27bfc1-3efa-4330-866f-42966151d9b3",
+      "links": {
+        "self": {
+          "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3?resourceVersion=id%3A853667"
+        }
+      },
+      "attributes": {
+        "langcode": "en",
+        "status": true,
+        "title": "Quality Manager - Iloilo, Philippines",
+        "created": "2026-06-16T15:30:38+00:00",
+        "changed": "2026-07-23T11:30:34+00:00",
+        "promote": false,
+        "sticky": false,
+        "default_langcode": true,
+        "metatag": [
+          {
+            "tag": "meta",
+            "attributes": {
+              "name": "title",
+              "content": "Quality Manager - Iloilo, Philippines | Transcom"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:site_name",
+              "content": "Transcom"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:type",
+              "content": "article"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:url",
+              "content": "https://backend.transcom.com/careers/job-openings/quality-manager-iloilo-philippines"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:description",
+              "content": "Job Offer - Transcom - Apply Now!"
+            }
+          },
+          {
+            "tag": "meta",
+            "attributes": {
+              "property": "og:image",
+              "content": "https://backend.transcom.com/sites/default/files/2023-06/Transcom%20white%20logo%20on%20black%20background%201200%20x%20630.png"
+            }
+          }
+        ],
+        "path": {
+          "alias": "/careers/job-openings/quality-manager-iloilo-philippines",
+          "pid": 1141591,
+          "langcode": "en"
+        },
+        "rh_redirect_fallback_action": null,
+        "body": {
+          "value": "<div><font face=\"arial\" size=\"3\"><span style=\"vertical-align: baseline;\">Transcom is looking for talented individuals like you to join our awesome team! Be the next Quality Manager for our Transcom</span><span style=\"font-weight: 700; vertical-align: baseline;\"> </span><span style=\"vertical-align: b...",
+          "format": "full_html",
+          "processed": "<div><font face=\"arial\" size=\"3\"><span style=\"vertical-align: baseline;\">Transcom is looking for talented individuals like you to join our awesome team! Be the next Quality Manager for our Transcom</span><span style=\"font-weight: 700; vertical-align: baseline;\"> </span><span style=\"vertical-align: b...",
+          "summary": null
+        },
+        "apply_before": null,
+        "all_domains": true,
+        "highlighted": false,
+        "link": {
+          "uri": "https://transcom.avature.net/careers/ApplicationMethods?jobId=11356&applicationStep=0",
+          "url": "https://transcom.avature.net/careers/ApplicationMethods?jobId=11356&applicationStep=0",
+          "title": "Apply",
+          "options": []
+        },
+        "field_recruiteeguid": null
+      },
+      "relationships": {
+        "node_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/node_type?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "uid": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/uid?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "domain": {
+          "data": [
+            {
+              "type": "domain",
+              "id": "3caeef1a-f0ba-4abb-9cab-ab5bc8a6e3ae",
+              "meta": {
+                "drupal_internal__target_id": "global_transcom"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "f5c6830f-6bd3-4c6e-823e-62fd8ccf153f",
+              "meta": {
+                "drupal_internal__target_id": "al_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "670f4852-a48c-4e98-8f03-fd5f208e12c5",
+              "meta": {
+                "drupal_internal__target_id": "backend_transcom_com_in"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "a3de60c6-1fe8-45f3-862b-5127c1dd2b6d",
+              "meta": {
+                "drupal_internal__target_id": "backend_youpal_cloud_fr"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "240627b9-7666-4c88-94f7-a375d12b8b41",
+              "meta": {
+                "drupal_internal__target_id": "ba_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "5520da10-cc5e-46ba-8351-8245072b7c6d",
+              "meta": {
+                "drupal_internal__target_id": "ca_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "41f3f7ee-a882-4d8c-b5fa-b3d4f9e460a6",
+              "meta": {
+                "drupal_internal__target_id": "co_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "6cfcc251-6555-453f-adee-452ebf7cf793",
+              "meta": {
+                "drupal_internal__target_id": "de_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "07b550d0-307e-4aad-beb5-205ee3d28db9",
+              "meta": {
+                "drupal_internal__target_id": "ee_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "36a12c57-9753-4bb3-a22c-9a9466955c21",
+              "meta": {
+                "drupal_internal__target_id": "eg_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "27cd90ee-382f-44d8-83e0-0a0ff85fdcf7",
+              "meta": {
+                "drupal_internal__target_id": "es_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "3cd5e266-d887-406d-a36f-caa6e6eb4970",
+              "meta": {
+                "drupal_internal__target_id": "fr_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "bebb4b28-8db7-4f69-8f74-4ad680889e4b",
+              "meta": {
+                "drupal_internal__target_id": "gr_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "3317b1bd-1009-4ea6-9e66-ddd3d4d4d427",
+              "meta": {
+                "drupal_internal__target_id": "hr_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "66724048-4453-4d27-9d4a-9af00b8232f8",
+              "meta": {
+                "drupal_internal__target_id": "hu_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "a79fcd3f-500d-4c0c-ba24-9eb4f1347335",
+              "meta": {
+                "drupal_internal__target_id": "it_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "ab1ddc35-666f-4311-86ce-67743fce72f3",
+              "meta": {
+                "drupal_internal__target_id": "lt_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "dc099172-905e-4c65-bb79-c3a5c30836f3",
+              "meta": {
+                "drupal_internal__target_id": "lv_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "9bd73ec7-7bf3-4412-82cb-a471b31c889e",
+              "meta": {
+                "drupal_internal__target_id": "mk_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "0e6e2198-c20a-47ea-91e2-3a5128d0b8d3",
+              "meta": {
+                "drupal_internal__target_id": "nl_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "15d0dce5-2b5c-4279-aa86-c9ce5fb60cd2",
+              "meta": {
+                "drupal_internal__target_id": "no_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "7604a9d9-616c-4ca3-bf0c-d588d8ef566d",
+              "meta": {
+                "drupal_internal__target_id": "ph_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "d660c860-5bcb-4012-80fd-a06f18ce257c",
+              "meta": {
+                "drupal_internal__target_id": "pl_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "03710545-2d1c-4ad5-9de9-d596cddd180b",
+              "meta": {
+                "drupal_internal__target_id": "pt_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "fea788e5-4fa1-4668-93f2-06b6b00c3568",
+              "meta": {
+                "drupal_internal__target_id": "rs_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "26a2cee3-a3d3-4314-b4d2-4f64f6c99a22",
+              "meta": {
+                "drupal_internal__target_id": "se_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "963b033d-720d-4aa2-b3d7-6b1bf62d90cf",
+              "meta": {
+                "drupal_internal__target_id": "sl_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "df535c0d-786f-4929-81b4-46cf5462e6c3",
+              "meta": {
+                "drupal_internal__target_id": "uk_transcom_com"
+              }
+            },
+            {
+              "type": "domain",
+              "id": "f7f7bd38-7aee-4b98-bcb2-4a60c3989430",
+              "meta": {
+                "drupal_internal__target_id": "us_transcom_com"
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/domain?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/domain?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/image?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/image?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "job_type": {
+          "data": {
+            "type": "job-type",
+            "id": "7c427c18-0510-40c9-a973-9dd83e1dbe8f",
+            "meta": {
+              "drupal_internal__target_id": 1116
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/job_type?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/job_type?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "location_ct": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/location_ct?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/location_ct?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "field_sections": {
+          "data": [],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/field_sections?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/field_sections?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "field_taxonomy_city": {
+          "data": {
+            "type": "city",
+            "id": "caade0e5-63df-4aa7-941b-23fc69e6efb8",
+            "meta": {
+              "drupal_internal__target_id": 998
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/field_taxonomy_city?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/field_taxonomy_city?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "country": {
+          "data": {
+            "type": "country",
+            "id": "d41fa7d2-dff7-4688-8a91-91b68d400c21",
+            "meta": {
+              "drupal_internal__target_id": 540
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/country?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/country?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "field_taxonomy_language": {
+          "data": [
+            {
+              "type": "language",
+              "id": "5f4174ae-df22-450a-8086-f8b25c08d743",
+              "meta": {
+                "drupal_internal__target_id": 818
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/field_taxonomy_language?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/field_taxonomy_language?resourceVersion=id%3A853667"
+            }
+          }
+        },
+        "teaser_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/teaser_image?resourceVersion=id%3A853667"
+            },
+            "self": {
+              "href": "https://backend.transcom.com/api/v1/node/job_offering/da27bfc1-3efa-4330-866f-42966151d9b3/relationships/teaser_image?resourceVersion=id%3A853667"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 3
+  },
+  "links": {
+    "self": {
+      "href": "https://backend.transcom.com/api/v1/node/job_offering?filter%5Btitle%5D%5Boperator%5D=CONTAINS&filter%5Btitle%5D%5Bvalue%5D=Iloilo&page%5Blimit%5D=50"
+    }
+  }
+}

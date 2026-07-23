@@ -1,0 +1,10 @@
+{
+  "id": "nearsol",
+  "name": "Nearsol",
+  "website": "https://nearsol.com",
+  "careers_url": "https://nearsol.com/careers/",
+  "logo": "/logos/nearsol.svg",
+  "city": "Iloilo",
+  "enabled": true,
+  "source_kind": "wordpress"
+}

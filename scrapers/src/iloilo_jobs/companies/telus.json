@@ -1,0 +1,10 @@
+{
+  "id": "telus",
+  "name": "TELUS Digital",
+  "website": "https://www.telusdigital.com",
+  "careers_url": "https://jobs.telusdigital.com/search/jobs?location=iloilo",
+  "logo": "/logos/telus.svg",
+  "city": "Iloilo",
+  "enabled": true,
+  "source_kind": "talemetry"
+}

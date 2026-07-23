@@ -1,0 +1,10 @@
+{
+  "id": "transcom",
+  "name": "Transcom",
+  "website": "https://www.transcom.com",
+  "careers_url": "https://careers.transcom.com/ph/job-openings/",
+  "logo": "/logos/transcom.svg",
+  "city": "Iloilo",
+  "enabled": true,
+  "source_kind": "drupal_jsonapi"
+}

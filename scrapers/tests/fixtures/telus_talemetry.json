@@ -1,0 +1,169 @@
+{
+  "current_page": 1,
+  "per_page": 50,
+  "total_entries": 9,
+  "entries": [
+    {
+      "id": "18002637",
+      "talemetry_job_id": "18002637",
+      "permalink": "operations-csr-ii",
+      "title": "Operations CSR II",
+      "location": {
+        "street": "Robinsons Cybergate Tower 1, Barangay Road",
+        "locality": "Pavia",
+        "region_abbr": "ILI",
+        "postal_code": "5001",
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": "Iloilo",
+        "name": "PH - Iloilo - Pavia Tower 2"
+      }
+    },
+    {
+      "id": "18002636",
+      "talemetry_job_id": "18002636",
+      "permalink": "operations-csr-ii",
+      "title": "Operations CSR II",
+      "location": {
+        "street": "Robinsons Cybergate Tower 1, Barangay Road",
+        "locality": "Pavia",
+        "region_abbr": "ILI",
+        "postal_code": "5001",
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": "Iloilo",
+        "name": "PH - Iloilo - Pavia Tower 2"
+      }
+    },
+    {
+      "id": "18002635",
+      "talemetry_job_id": "18002635",
+      "permalink": "operations-csr-ii",
+      "title": "Operations CSR II",
+      "location": {
+        "street": "Robinsons Cybergate Tower 1, Barangay Road",
+        "locality": "Pavia",
+        "region_abbr": "ILI",
+        "postal_code": "5001",
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": "Iloilo",
+        "name": "PH - Iloilo - Pavia Tower 2"
+      }
+    },
+    {
+      "id": "18002634",
+      "talemetry_job_id": "18002634",
+      "permalink": "operations-csr-ii",
+      "title": "Operations CSR II",
+      "location": {
+        "street": "Robinsons Cybergate Tower 1, Barangay Road",
+        "locality": "Pavia",
+        "region_abbr": "ILI",
+        "postal_code": "5001",
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": "Iloilo",
+        "name": "PH - Iloilo - Pavia Tower 2"
+      }
+    },
+    {
+      "id": "17988343",
+      "talemetry_job_id": "17988343",
+      "permalink": "operations-csr-ii",
+      "title": "Operations CSR II",
+      "location": {
+        "street": "Robinsons Cybergate Tower 1, Barangay Road",
+        "locality": "Pavia",
+        "region_abbr": "ILI",
+        "postal_code": "5001",
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": "Iloilo",
+        "name": "PH - Iloilo - Pavia Tower 2"
+      }
+    },
+    {
+      "id": "17934785",
+      "talemetry_job_id": "17934785",
+      "permalink": "operations-csr",
+      "title": "Operations CSR",
+      "location": {
+        "street": null,
+        "locality": "Iloilo",
+        "region_abbr": null,
+        "postal_code": null,
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": null,
+        "name": "PH - Iloilo"
+      }
+    },
+    {
+      "id": "17877151",
+      "talemetry_job_id": "17877151",
+      "permalink": "real-time-analyst",
+      "title": "Real Time Analyst",
+      "location": {
+        "street": "Robinsons Cybergate Tower 1, Barangay Road",
+        "locality": "Pavia",
+        "region_abbr": "ILI",
+        "postal_code": "5001",
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": "Iloilo",
+        "name": "PH - Iloilo - Pavia Tower 2"
+      }
+    },
+    {
+      "id": "17765933",
+      "talemetry_job_id": "17765933",
+      "permalink": "barclays-care-wave-29",
+      "title": "Barclays Care Wave 29",
+      "location": {
+        "street": null,
+        "locality": "Iloilo",
+        "region_abbr": null,
+        "postal_code": null,
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": null,
+        "name": "PH - Iloilo"
+      }
+    },
+    {
+      "id": "17536145",
+      "talemetry_job_id": "17536145",
+      "permalink": "customer-experience-manager",
+      "title": "Customer Experience Manager",
+      "location": {
+        "street": "Robinsons Cybergate Tower 1, Barangay Road",
+        "locality": "Pavia",
+        "region_abbr": "ILI",
+        "postal_code": "5001",
+        "country": "Philippines",
+        "phone": null,
+        "email": null,
+        "extra": null,
+        "region_full": "Iloilo",
+        "name": "PH - Iloilo - Pavia Tower 2"
+      }
+    }
+  ]
+}

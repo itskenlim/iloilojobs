@@ -1,0 +1,236 @@
+{
+  "total": 39,
+  "jobPostings": [
+    {
+      "title": "Data Entry & Control Coordinator",
+      "externalPath": "/job/Iloilo/Data-Entry---Control-Coordinator_R102775",
+      "locationsText": "Iloilo",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R102775"
+      ]
+    },
+    {
+      "title": "Data Entry & Control Coordinator",
+      "externalPath": "/job/Iloilo/Data-Entry---Control-Assistant-I-17_R103193",
+      "locationsText": "Iloilo",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R103193"
+      ]
+    },
+    {
+      "title": "Data Entry & Control Assistant I",
+      "externalPath": "/job/Iloilo/Data-Entry---Control-Assistant-I_R105240",
+      "locationsText": "Iloilo",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R105240"
+      ]
+    },
+    {
+      "title": "Data Entry & Control Coordinator",
+      "externalPath": "/job/Iloilo/Data-Entry---Control-Coordinator_R105241",
+      "locationsText": "Iloilo",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R105241"
+      ]
+    },
+    {
+      "title": "Data Entry & Control Assistant I",
+      "externalPath": "/job/Iloilo/Data-Entry---Control-Assistant-I_R105629",
+      "locationsText": "Iloilo",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R105629"
+      ]
+    },
+    {
+      "title": "Customer Engagement Analyst I",
+      "externalPath": "/job/Iloilo/Customer-Engagement-Analyst-I_R112536",
+      "locationsText": "Iloilo",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R112536"
+      ]
+    },
+    {
+      "title": "Fulfillment Associate",
+      "externalPath": "/job/Iloilo/Fulfillment-Associate_R115990",
+      "locationsText": "Iloilo",
+      "postedOn": "Posted 9 Days Ago",
+      "bulletFields": [
+        "R115990"
+      ]
+    },
+    {
+      "title": "Operations Specialist",
+      "externalPath": "/job/Manila/Operations-Specialist_R102671",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R102671"
+      ]
+    },
+    {
+      "title": "Supervisor I, Operations Management",
+      "externalPath": "/job/Manila/Supervisor-I--Operations-Management_R110638",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R110638"
+      ]
+    },
+    {
+      "title": "Supervisor I, Operations Management",
+      "externalPath": "/job/Manila/Supervisor-I--Operations-Management_R110637",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R110637"
+      ]
+    },
+    {
+      "title": "Service Level Manager\u200b (Contract Management)",
+      "externalPath": "/job/Manila/Sr-Operational-Process-Analyst_R111833",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 10 Days Ago",
+      "bulletFields": [
+        "R111833"
+      ]
+    },
+    {
+      "title": "Senior Business Analyst I",
+      "externalPath": "/job/Manila/Senior-Business-Analyst-I_R110086",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "R110086"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetParameter": "Country___Territory",
+      "descriptor": "Country",
+      "values": [
+        {
+          "descriptor": "Philippines",
+          "id": "e56f1daf83e04bacae794ba5c5593560",
+          "count": 39
+        }
+      ]
+    },
+    {
+      "facetParameter": "jobFamilyGroup",
+      "descriptor": "Job Category",
+      "values": [
+        {
+          "descriptor": "Technology",
+          "id": "8c5fc5940f0b01ba8d012114be0035b9",
+          "count": 8
+        },
+        {
+          "descriptor": "Sales Ops",
+          "id": "8c5fc5940f0b0100ba1cf413be001db9",
+          "count": 7
+        },
+        {
+          "descriptor": "Administrative Services",
+          "id": "8c5fc5940f0b017151c07613be00dab8",
+          "count": 6
+        },
+        {
+          "descriptor": "Customer Service & Operations",
+          "id": "8c5fc5940f0b015496474913be00c3b8",
+          "count": 5
+        },
+        {
+          "descriptor": "Marketing",
+          "id": "8c5fc5940f0b0109f460ab0ebe005db8",
+          "count": 5
+        },
+        {
+          "descriptor": "Editorial & Publishing",
+          "id": "8c5fc5940f0b0124fa48bf10be0075b8",
+          "count": 3
+        },
+        {
+          "descriptor": "Sales",
+          "id": "8c5fc5940f0b01d0d426f112be009cb8",
+          "count": 2
+        },
+        {
+          "descriptor": "General Management",
+          "id": "8c5fc5940f0b01b25c2a5111be007bb8",
+          "count": 2
+        },
+        {
+          "descriptor": "Data, Research & Analytics",
+          "id": "8c5fc5940f0b01602e831f13be00aeb8",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "facetParameter": "workerSubType",
+      "descriptor": "Job Type",
+      "values": [
+        {
+          "descriptor": "Regular",
+          "id": "8c5fc5940f0b01245710e9bab000af0f",
+          "count": 39
+        }
+      ]
+    },
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locationRegionStateProvince",
+          "descriptor": "Province/State",
+          "values": [
+            {
+              "descriptor": "Cebu",
+              "id": "be7206586f944de88e944c985f6c1eca",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "facetParameter": "locations",
+          "descriptor": "Specific Location",
+          "values": [
+            {
+              "descriptor": "Cebu",
+              "id": "1e91c654183d100154a6e11c912f0000",
+              "count": 5
+            },
+            {
+              "descriptor": "Iloilo",
+              "id": "8c5fc5940f0b01fe81cea9adb200241f",
+              "count": 36
+            },
+            {
+              "descriptor": "Manila",
+              "id": "8c5fc5940f0b0192fcb75ba1b200591c",
+              "count": 28
+            },
+            {
+              "descriptor": "PHL-RE Shared Services-Iloilo",
+              "id": "8c5fc5940f0b01f60982a8bdb2000a25",
+              "count": 4
+            },
+            {
+              "descriptor": "PHL-RE Shared Services-Manila",
+              "id": "8c5fc5940f0b0116b5e116cdb2000629",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userAuthenticated": false
+}
