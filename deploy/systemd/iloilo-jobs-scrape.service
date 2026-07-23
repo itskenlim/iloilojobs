@@ -1,0 +1,19 @@
+[Unit]
+Description=Iloilo Jobs scrape and push job data
+Documentation=https://github.com/itskenlim/iloilojobs
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Edit these two lines for your laptop user + clone path:
+User=REPLACE_ME
+WorkingDirectory=/home/REPLACE_ME/iloilojobs
+Environment=ILOILO_JOBS_ROOT=/home/REPLACE_ME/iloilojobs
+# Optional: Environment=ILOILO_JOBS_VENV=/home/REPLACE_ME/iloilojobs/scrapers/.venv
+ExecStart=/home/REPLACE_ME/iloilojobs/scripts/scrape-and-push.sh
+Nice=10
+
+# Keep a bit of journal context on failure
+StandardOutput=journal
+StandardError=journal

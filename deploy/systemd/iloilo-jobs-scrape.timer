@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Iloilo Jobs scrape every 6 hours
+Documentation=https://github.com/itskenlim/iloilojobs
+
+[Timer]
+OnCalendar=*-*-* 00/6:15:00
+Persistent=true
+RandomizedDelaySec=5m
+
+[Install]
+WantedBy=timers.target
