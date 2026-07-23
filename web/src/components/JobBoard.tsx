@@ -22,13 +22,14 @@ export function JobBoard({ jobs }: Props) {
     return jobs.filter((job) => {
       if (company !== "all" && job.company_name !== company) return false;
       if (!q) return true;
-      const hay = `${job.title} ${job.company_name} ${job.location ?? ""} ${job.city ?? ""}`.toLowerCase();
+      const hay =
+        `${job.title} ${job.company_name} ${job.location ?? ""} ${job.city ?? ""}`.toLowerCase();
       return hay.includes(q);
     });
   }, [jobs, query, company]);
 
   return (
-    <section className="board" id="jobs">
+    <div className="board" id="jobs">
       <div className="filters">
         <label className="filter">
           <span>Search</span>
@@ -92,6 +93,6 @@ export function JobBoard({ jobs }: Props) {
           ))}
         </ul>
       )}
-    </section>
+    </div>
   );
 }

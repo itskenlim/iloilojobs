@@ -1,22 +1,24 @@
 import type { Metadata } from "next";
-import { Fraunces, Source_Sans_3 } from "next/font/google";
+import { Open_Sans, Poppins } from "next/font/google";
 
 import "./globals.css";
 
-const display = Fraunces({
+const display = Poppins({
   subsets: ["latin"],
+  weight: ["500", "600", "700"],
   variable: "--font-display",
 });
 
-const body = Source_Sans_3({
+const body = Open_Sans({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-body",
 });
 
 export const metadata: Metadata = {
   title: "Iloilo Jobs — BPO openings in one place",
   description:
-    "Centralized Iloilo BPO career listings from Carelon, iQor, and more.",
+    "Centralized Iloilo BPO career listings from Carelon, iQor, TELUS, and more.",
 };
 
 export default function RootLayout({
