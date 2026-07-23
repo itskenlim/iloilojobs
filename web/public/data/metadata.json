@@ -1,11 +1,14 @@
 {
-  "generated_at": "2026-07-23T13:04:58Z",
+  "generated_at": "2026-07-23T15:01:39Z",
   "providers": 9,
-  "successful_providers": 9,
-  "failed_providers": 0,
-  "failed_provider_ids": [],
-  "total_jobs": 75,
+  "successful_providers": 7,
+  "failed_providers": 2,
+  "failed_provider_ids": [
+    "iqor",
+    "telus"
+  ],
+  "total_jobs": 49,
   "duplicates_removed": 0,
   "validation_dropped": 0,
-  "duration_ms": 21358
+  "duration_ms": 7061
 }
