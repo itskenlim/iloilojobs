@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T04:19:07Z",
+  "generated_at": "2026-07-24T05:26:43Z",
   "providers": 10,
   "successful_providers": 9,
   "failed_providers": 1,
   "failed_provider_ids": [
-    "wns"
+    "nearsol"
   ],
-  "total_jobs": 80,
+  "total_jobs": 82,
   "duplicates_removed": 0,
   "validation_dropped": 0,
-  "duration_ms": 77709
+  "duration_ms": 57579
 }
