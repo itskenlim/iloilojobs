@@ -15,10 +15,37 @@ const body = Open_Sans({
   variable: "--font-body",
 });
 
+const siteUrl = "https://iloilojobs.vercel.app";
+const title = "Iloilo Jobs — BPO openings in one place";
+const description =
+  "Browse Iloilo BPO roles from company career sites in one board. Filter by company and apply on official employer pages.";
+
 export const metadata: Metadata = {
-  title: "Iloilo Jobs — BPO openings in one place",
-  description:
-    "Centralized Iloilo BPO career listings from Carelon, iQor, TELUS, and more.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: siteUrl,
+    siteName: "Iloilo Jobs",
+    locale: "en_PH",
+    type: "website",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Iloilo Jobs — BPO openings across Iloilo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
