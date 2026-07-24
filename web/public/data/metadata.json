@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-07-23T22:19:51Z",
+  "generated_at": "2026-07-24T04:19:07Z",
   "providers": 10,
-  "successful_providers": 10,
-  "failed_providers": 0,
-  "failed_provider_ids": [],
-  "total_jobs": 86,
+  "successful_providers": 9,
+  "failed_providers": 1,
+  "failed_provider_ids": [
+    "wns"
+  ],
+  "total_jobs": 80,
   "duplicates_removed": 0,
   "validation_dropped": 0,
-  "duration_ms": 24862
+  "duration_ms": 77709
 }
