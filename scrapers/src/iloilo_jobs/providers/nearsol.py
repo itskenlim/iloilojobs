@@ -5,6 +5,8 @@ from datetime import datetime, timezone
 from html import unescape
 from typing import Any
 
+import httpx
+
 from iloilo_jobs.clients.http import HttpClient
 from iloilo_jobs.models.job import Job
 from iloilo_jobs.registry import provider
@@ -89,15 +91,25 @@ class NearsolProvider:
         api_url: str = NEARSOL_API,
     ) -> None:
         self.api_url = api_url
-        self._http = http or HttpClient()
+        # WordPress REST on nearsol.com is often slow / flaky — allow more time.
+        self._http = http or HttpClient(timeout=60.0)
         self._owns_http = http is None
 
     def fetch_raw(self) -> dict[str, Any]:
-        response = self._http.get(self.api_url, params={"per_page": 100})
-        items = response.json()
-        if not isinstance(items, list):
-            raise TypeError("Nearsol API did not return a list")
-        return {"items": items, "total": len(items)}
+        last_exc: Exception | None = None
+        for attempt in range(1, 3):
+            try:
+                response = self._http.get(self.api_url, params={"per_page": 100})
+                items = response.json()
+                if not isinstance(items, list):
+                    raise TypeError("Nearsol API did not return a list")
+                return {"items": items, "total": len(items)}
+            except (httpx.TimeoutException, httpx.TransportError) as exc:
+                last_exc = exc
+                if attempt == 2:
+                    break
+        assert last_exc is not None
+        raise last_exc
 
     def parse(self, raw: Any) -> list[Job]:
         return parse_nearsol_payload(raw)

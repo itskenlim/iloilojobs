@@ -8,8 +8,6 @@ type Props = {
   jobs: Job[];
 };
 
-type SortMode = "newest" | "company";
-
 function postedTimestamp(iso: string | null): number {
   if (!iso) return Number.NEGATIVE_INFINITY;
   const t = Date.parse(iso);
@@ -47,7 +45,6 @@ function formatPostedRelative(iso: string | null): string | null {
 export function JobBoard({ jobs }: Props) {
   const [query, setQuery] = useState("");
   const [company, setCompany] = useState("all");
-  const [sort, setSort] = useState<SortMode>("newest");
 
   const companies = useMemo(() => {
     const names = new Set(jobs.map((j) => j.company_name).filter(Boolean));
@@ -65,16 +62,11 @@ export function JobBoard({ jobs }: Props) {
     });
 
     return [...list].sort((a, b) => {
-      if (sort === "company") {
-        const byCompany = a.company_name.localeCompare(b.company_name);
-        if (byCompany !== 0) return byCompany;
-        return a.title.localeCompare(b.title);
-      }
       const byDate = postedTimestamp(b.posted_at) - postedTimestamp(a.posted_at);
       if (byDate !== 0) return byDate;
       return a.title.localeCompare(b.title);
     });
-  }, [jobs, query, company, sort]);
+  }, [jobs, query, company]);
 
   return (
     <div className="board" id="jobs">
@@ -97,16 +89,6 @@ export function JobBoard({ jobs }: Props) {
                 {name}
               </option>
             ))}
-          </select>
-        </label>
-        <label className="filter">
-          <span>Sort</span>
-          <select
-            value={sort}
-            onChange={(e) => setSort(e.target.value as SortMode)}
-          >
-            <option value="newest">Newest first</option>
-            <option value="company">Company A–Z</option>
           </select>
         </label>
       </div>

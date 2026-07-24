@@ -81,13 +81,18 @@ export default async function HomePage() {
             From company career sites — filtered for Iloilo so you can browse
             jobs without switching between portals.
           </p>
+          <p className="hero-hook" aria-live="polite">
+            <span className="hero-hook-count">{jobs.length}</span>
+            <span className="hero-hook-label">
+              {jobs.length === 1 ? "Role available" : "Roles available"}
+            </span>
+          </p>
           <a className="cta" href="#jobs">
             Browse openings
           </a>
           <p className="updated">
             Last updated {formatUpdated(metadata.generated_at)} ·{" "}
-            {metadata.total_jobs} roles · {metadata.successful_providers}/
-            {metadata.providers} sources ok
+            {metadata.successful_providers}/{metadata.providers} sources ok
           </p>
         </div>
       </header>
@@ -107,12 +112,12 @@ export default async function HomePage() {
           <li className="step">
             <IconFilter />
             <h3>Filter to Iloilo</h3>
-            <p>Keep only Iloilo and nearby sites like Pavia and Mandurriao.</p>
+            <p>Iloilo and nearby sites only.</p>
           </li>
           <li className="step">
             <IconApply />
             <h3>Apply officially</h3>
-            <p>Each listing links out to the company’s real apply flow.</p>
+            <p>Each listing links to the company’s official application flow.</p>
           </li>
         </ol>
       </section>
